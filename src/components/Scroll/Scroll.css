@@ -1,0 +1,56 @@
+.Scroll{
+    overflow-y: scroll;
+    border: 5px solid black;
+    height: 75vh;
+    width: 50%;
+    margin-top: 140px;
+    margin-right: 410px;
+    position: absolute;
+    right: 0;
+    background-color: #2d2c2c;
+    border-radius: 5px;
+}
+
+.Scroll-SBar{
+    background-color: #2d2c2c;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 14px;
+}
+
+.Scroll-H{
+    position: sticky;
+    top: 0;
+    background-color: #3e3d3d; /* Change this to your preferred color */
+    text-align: right;
+    padding: 10px;
+}
+
+.Scroll-SBar {
+    color: white;
+  }
+
+.Scroll-SBar::placeholder {
+    color: white;
+  }
+  
+
+.Scroll-Item{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px; /* Add vertical padding for each item */
+    border-bottom: 1px solid #000; /* Add a border to each item */
+}
+
+.Scroll-Item {
+    color: #bbbbbb; /* Adjust as needed */
+    text-decoration: none;
+    font-size: 14px; /* Adjust as needed */
+  }
+  
+  .Scroll-Item:hover {
+    color: #ffffff;
+  }
+

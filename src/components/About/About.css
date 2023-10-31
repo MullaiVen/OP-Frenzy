@@ -1,0 +1,101 @@
+.OPAboutContainer {
+  display: flex;
+  padding: 25px 100px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.OPAboutContainer img {
+  border: 5px solid #060606;
+  max-width: 40%; 
+  border-radius: 10px;
+}
+
+.content-container {
+  flex: 1; 
+  display: flex;
+  justify-content: space-between; 
+}
+
+.text-container {
+  padding-right: 20px; 
+  padding-left: 20px;
+}
+
+.AbtH1{
+  font-size: 35px;
+  color: black;
+  font-family: Arial  , sans-serif;
+}
+
+.circle-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; 
+  background-color: #575c60; 
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.circle-button:hover {
+  background-color: #0f0f0f; 
+}
+
+
+.Details-container{
+  padding-top: 10px;
+}
+
+.OPStory {
+  font-size: 12px;
+  padding-left: 100px;
+}
+
+.Modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.Modal-content {
+  background-color: rgba(35, 34, 34, 0.9);
+  color: #ffffff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 35%;
+  height: 38%;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.Close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Close:hover,
+.Close:focus {
+  color: rgb(254, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.noScroll {
+  overflow: hidden;
+}
+

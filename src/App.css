@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+  }
+
+body {
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+
