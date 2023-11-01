@@ -1,6 +1,14 @@
 # OP-Frenzy
-# MangaReaderApp-React
-Personal project : manga reading app working on web browers 
+## MangaReaderApp-React
+One Piece Manga Reading App using web browsers
+
+## Tech stack
+- React
+- Vite
+- Javascript
+- HTML
+- CSS / SCSS
+- Bootstrap
 
 ## Page-1
 > Introduction to One Piece.
