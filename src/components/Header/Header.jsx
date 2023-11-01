@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import OPFrenzy from "/src/assests/OPFrenzy.png";
-import signin from "/src/assests/Signin-bt.png";
+import OPFrenzy from "/assests/OPFrenzy.png";
+import signin from "/assests/Signin-bt.png";
 
 const Header = () => {
   return (

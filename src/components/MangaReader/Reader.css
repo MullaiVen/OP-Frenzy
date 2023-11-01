@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start; /* Align content to the top */
-  background-image: url('/src/assests/chapters/Mangabackground.jpg');
+  background-image: url('/assests/chapters/Mangabackground.jpg');
   background-size: cover;
 }
 
@@ -131,7 +131,7 @@
 
 
 .reader-container.dark .reader-content {
-  background-image: url('/src/assests/chapters/DarkMangabackground.jpg'); 
+  background-image: url('/assests/chapters/DarkMangabackground.jpg'); 
 }
 
 

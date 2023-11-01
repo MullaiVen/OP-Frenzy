@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./About.css";
-import photo from "/src/assests/StrawHat-Grp.jpg";
+import photo from "/assests/StrawHat-Grp.jpg";
 import { Link } from "react-router-dom";
 
 const About = () => {

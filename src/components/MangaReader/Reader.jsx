@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import "./Reader.css";
-import OPFrenzyW from "/src/assests/OPFrenzywhite.png";
+import OPFrenzyW from "/assests/OPFrenzywhite.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -32,7 +32,7 @@ const Reader = () => {
 
   const images = Array.from(
     { length: chapterPages[id] },
-    (v, i) => `/src/assests/chapters/${id}/${i + 1}.jpg`
+    (v, i) => `/assests/chapters/${id}/${i + 1}.jpg`
   );
 
   const [currentPage, setCurrentPage] = useState(0);

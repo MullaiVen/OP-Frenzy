@@ -27,14 +27,11 @@ export default function App() {
           path="/Home"
           element={
             <>
-              <Section className="main" background="/src/assests/OP1-BG.jpg">
+              <Section className="main" background="/assests/OP1-BG.jpg">
                 <Main />
               </Section>
 
-              <Section
-                className="scroll"
-                background="/src/assests/ScrollBG.jpg"
-              >
+              <Section className="scroll" background="/assests/ScrollBG.jpg">
                 <Scroll />
               </Section>
 

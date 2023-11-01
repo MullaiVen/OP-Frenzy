@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css"; // Assuming you have a CSS file for styling
-import OPFrenzyW from "/src/assests/OPFrenzywhite.png";
+import OPFrenzyW from "/assests/OPFrenzywhite.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -9,23 +9,23 @@ const Body = () => {
     <div className="body">
       <div className="container">
         <div className="item">
-          <img src="/src/assests/luffy.jpg" alt="Manga 1" />
+          <img src="/assests/luffy.jpg" alt="Manga 1" />
           <div className="item-text">Luffy</div>
         </div>
         <div className="item">
-          <img src="/src/assests/Zoro.jpg" alt="Manga 1" />
+          <img src="/assests/Zoro.jpg" alt="Manga 1" />
           <div className="item-text">Zoro</div>
         </div>
         <div className="item">
-          <img src="/src/assests/Sanji.jpg" alt="Manga 1" />
+          <img src="/assests/Sanji.jpg" alt="Manga 1" />
           <div className="item-text">Sanji</div>
         </div>
         <div className="item">
-          <img src="/src/assests/Usopp.jpg" alt="Manga 1" />
+          <img src="/assests/Usopp.jpg" alt="Manga 1" />
           <div className="item-text">Usopp</div>
         </div>
         <div className="item">
-          <img src="/src/assests/Nami.jpg" alt="Manga 1" />
+          <img src="/assests/Nami.jpg" alt="Manga 1" />
           <div className="item-text">Nami</div>
         </div>
       </div>
