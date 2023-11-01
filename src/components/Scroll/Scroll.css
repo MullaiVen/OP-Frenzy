@@ -22,7 +22,7 @@
 .Scroll-H{
     position: sticky;
     top: 0;
-    background-color: #3e3d3d; /* Change this to your preferred color */
+    background-color: #3e3d3d; 
     text-align: right;
     padding: 10px;
 }
@@ -40,14 +40,14 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 10px 10px; /* Add vertical padding for each item */
-    border-bottom: 1px solid #000; /* Add a border to each item */
+    padding: 10px 10px;
+    border-bottom: 1px solid #000; 
 }
 
 .Scroll-Item {
-    color: #bbbbbb; /* Adjust as needed */
+    color: #bbbbbb; 
     text-decoration: none;
-    font-size: 14px; /* Adjust as needed */
+    font-size: 14px; 
   }
   
   .Scroll-Item:hover {

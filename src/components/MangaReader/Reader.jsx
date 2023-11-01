@@ -67,7 +67,7 @@ const Reader = () => {
     <div className={`reader-container ${darkMode ? "dark" : ""}`}>
       <div className="reader-sidebar">
         <div className="nav-logo">
-          <a href="/">
+          <a href="/Home">
             <img src={OPFrenzyW} alt="OPFrenzy" />
           </a>
           <div className="chapter-details">
