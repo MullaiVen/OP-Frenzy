@@ -33,7 +33,7 @@ const Header = () => {
                     </div>
                   </li>
                   <li>
-                    <a href="#">Newest</a>
+                    <a href="/Newest">Newest</a>
                   </li>
                   <li>
                     <a href="/About">About</a>
@@ -43,7 +43,7 @@ const Header = () => {
             </aside>
             <aside className="end">
               <div className="nav-login">
-                <a href="#">
+                <a href="/Sign-in">
                   <img src={signin} alt="OPFrenzy" />
                 </a>
               </div>
