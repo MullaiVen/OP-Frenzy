@@ -24,7 +24,7 @@ export default function App() {
     <>
       <Routes>
         <Route
-          path="/Home"
+          path="/"
           element={
             <>
               <Section className="main" background="/assests/OP1-BG.jpg">

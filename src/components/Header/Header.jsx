@@ -11,7 +11,7 @@ const Header = () => {
           <div className="wrapper">
             <aside className="start">
               <div className="nav-logo">
-                <a href="/Home">
+                <a href="/">
                   <img src={OPFrenzy} alt="OPFrenzy" />
                 </a>
               </div>
@@ -33,17 +33,17 @@ const Header = () => {
                     </div>
                   </li>
                   <li>
-                    <a href="/Home/Newest">Newest</a>
+                    <a href="/Newest">Newest</a>
                   </li>
                   <li>
-                    <a href="/Home/About">About</a>
+                    <a href="/About">About</a>
                   </li>
                 </ul>
               </div>
             </aside>
             <aside className="end">
               <div className="nav-login">
-                <a href="/Home/Sign-in">
+                <a href="/Sign-in">
                   <img src={signin} alt="OPFrenzy" />
                 </a>
               </div>
